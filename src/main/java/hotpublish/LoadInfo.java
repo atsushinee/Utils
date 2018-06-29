@@ -1,7 +1,7 @@
 package hotpublish;
 
 // 封装加载类的信息
-@SuppressWarnings("unused")
+@SuppressWarnings({"unused", "WeakerAccess"})
 public class LoadInfo {
 
     private MyClassLoader myClassLoader;
