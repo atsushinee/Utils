@@ -1,3 +1,4 @@
+import kt.Lichun;
 import org.apache.commons.codec.binary.Base64;
 
 import java.io.UnsupportedEncodingException;
@@ -47,7 +48,7 @@ public class StringUtils {
     private static String SALT = "#$%^&uiop";
 
     public static void main(String[] args) {
-        System.out.println(decodePwd("OjojJCVeJnVpb3A6OiMkJV4mdWlvcGs6OiMkJV4mdWlvcGw6OiMkJV4mdWlvcF86OiMkJV4mdWlvcHo6OiMkJV4mdWlvcGg6OiMkJV4mdWlvcHA6OiMkJV4mdWlvcHQ6OiMkJV4mdWlvcF86OiMkJV4mdWlvcGE6OiMkJV4mdWlvcGg"));
+        System.out.println(encodePwd("kl_zhpt_ah"));
 //        System.out.println(base64Encode("皖GC6198"));
 //        System.out.println(base64Encode("533746"));
     }
